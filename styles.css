@@ -7,40 +7,110 @@ body {
 .header {
   color: #1f2937;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .top {
   background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.top-non-image {
+  margin-left: 120px;
+}
+
+.top-image {
+  margin-right: 120px;
+  padding: 64px 64px;
 }
 
 .random-information {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-information h1 {
+  margin: 32px 0;
+}
+
+.image-container {
+  margin: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 32px;
+}
+
+.images-and-caption p {
+  text-align: center;
 }
 
 .inspiring-quote {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cta-div {
   background-color: white;
 }
 
+.cta-texts {
+  margin-left: 32px;
+}
+
+#cta-main-text {
+  margin-bottom: 0;
+}
+
+#cta-text {
+  margin-top: 0;
+}
+
+.bottom-cta-button {
+  margin-right: 64px;
+}
+
 .footer {
   background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
 }
 
 ul {
+  margin-right: 120px;
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
 }
 
 a {
   text-decoration: none;
   color: #1f2937;
+  font-weight: normal;
+}
+
+ul a:hover {
+  font-weight: bold;
 }
 
 .header-logo {
+  margin-left: 120px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .top-title {
@@ -53,6 +123,7 @@ a {
   color: white;
   font-size: 18px;
   font-weight: lighter;
+  margin-bottom: 16px;
 }
 
 .top-image img {
@@ -60,16 +131,17 @@ a {
   height: 220px;
 }
 
-.top-cta-button button {
+.top-cta-button a {
   background-color: #3882fc;
   color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   text-decoration: none;
   border: none;
   padding: 8px 20px;
   border-radius: 5px;
+  margin-top: 32px;
 }
 
 .images-and-caption img {
@@ -79,7 +151,13 @@ a {
   border-radius: 8px;
 }
 
+.images-and-caption img:hover {
+  border: 4px solid red;
+}
+
 .quote p {
+  margin: 0 360px;
+  padding-top: 64px;
   font-size: 36px;
   font-weight: light;
   font-style: italic;
@@ -90,6 +168,8 @@ a {
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
+  margin-left: 120px;
+  padding-bottom: 64px;
 }
 
 .cta-bar {
@@ -97,25 +177,30 @@ a {
   margin-right: 120px;
   background-color: #3882fc;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px 120px;
+  padding: 32px 32px;
 }
 
 #cta-main-text {
   color: white;
-  font-size: 16px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 #cta-text {
   color: white;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: normal;
 }
 
-.bottom-cta-button button {
+.bottom-cta-button a {
   background-color: #3882fc;
   color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bottom;
   text-align: center;
   text-decoration: none;
   border: 2px solid white;
@@ -123,13 +208,35 @@ a {
   border-radius: 5px;
 }
 
+.top-cta-button a:hover,
+.bottom-cta-button a:hover {
+  background-color: #3176e6;
+  color: rgb(233, 233, 233);
+}
+
 .footer p {
   color: white;
   font-weight: lighter;
+  margin: 0;
 }
 
 .footer a {
   color: white;
   font-weight: bold;
   font-style: italic;
+}
+
+.about-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: lighter;
+  padding: 120px 120px;
+  margin-top: 10%;
+  text-align: center;
 }
