@@ -52,5 +52,15 @@ a {
 .top-text {
   color: white;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: lighter;
+}
+
+.top-image img {
+  width: 400px;
+  height: 220px;
+}
+
+.images-and-caption img {
+  width: 200px;
+  height: 200px;
 }
