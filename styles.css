@@ -60,7 +60,76 @@ a {
   height: 220px;
 }
 
+.top-cta-button button {
+  background-color: #3882fc;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
 .images-and-caption img {
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+#quoter {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.cta-bar {
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #3882fc;
+  border-radius: 5px;
+}
+
+#cta-main-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#cta-text {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.bottom-cta-button button {
+  background-color: #3882fc;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.footer p {
+  color: white;
+  font-weight: lighter;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
 }
