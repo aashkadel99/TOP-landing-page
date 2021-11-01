@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  color: #1f2937;
+  background-color: white;
+}
+
+.top {
+  background-color: #1f2937;
+}
+
+.random-information {
+  background-color: white;
+}
+
+.inspiring-quote {
+  background-color: #e5e7eb;
+}
+
+.cta-div {
+  background-color: white;
+}
+
+.footer {
+  background-color: #1f2937;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.top-title {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.top-text {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
